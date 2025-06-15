@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspirePostgresMigrationIssue.AppHost", "AspirePostgresMigrationIssue.AppHost\AspirePostgresMigrationIssue.AppHost.csproj", "{C0A91D9B-1F58-47C5-AC0A-43EAB945EF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspirePostgresMigrationIssue.ServiceDefaults", "AspirePostgresMigrationIssue.ServiceDefaults\AspirePostgresMigrationIssue.ServiceDefaults.csproj", "{E2B56C13-0C5D-E47D-74F2-05414BF70C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspirePostgresMigrationIssue.Data", "AspirePostgresMigrationIssue.Data\AspirePostgresMigrationIssue.Data.csproj", "{E07EA1CC-DAA9-4E8A-A509-E0F52B41046C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspirePostgresMigrationIssue.Api", "AspirePostgresMigrationIssue.Api\AspirePostgresMigrationIssue.Api.csproj", "{1B19C660-162E-0A3E-0DBB-FDA585DC33E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspirePostgresMigrationIssue.MigrationService", "AspirePostgresMigrationIssue.MigrationService\AspirePostgresMigrationIssue.MigrationService.csproj", "{823E5DDD-B7AD-928C-4684-97B72D49861B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A91D9B-1F58-47C5-AC0A-43EAB945EF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A91D9B-1F58-47C5-AC0A-43EAB945EF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A91D9B-1F58-47C5-AC0A-43EAB945EF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A91D9B-1F58-47C5-AC0A-43EAB945EF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B56C13-0C5D-E47D-74F2-05414BF70C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B56C13-0C5D-E47D-74F2-05414BF70C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B56C13-0C5D-E47D-74F2-05414BF70C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B56C13-0C5D-E47D-74F2-05414BF70C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07EA1CC-DAA9-4E8A-A509-E0F52B41046C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07EA1CC-DAA9-4E8A-A509-E0F52B41046C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07EA1CC-DAA9-4E8A-A509-E0F52B41046C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07EA1CC-DAA9-4E8A-A509-E0F52B41046C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B19C660-162E-0A3E-0DBB-FDA585DC33E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B19C660-162E-0A3E-0DBB-FDA585DC33E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B19C660-162E-0A3E-0DBB-FDA585DC33E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B19C660-162E-0A3E-0DBB-FDA585DC33E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823E5DDD-B7AD-928C-4684-97B72D49861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823E5DDD-B7AD-928C-4684-97B72D49861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823E5DDD-B7AD-928C-4684-97B72D49861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823E5DDD-B7AD-928C-4684-97B72D49861B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC11251-A897-4069-8F87-91FC7F409BAE}
+	EndGlobalSection
+EndGlobal

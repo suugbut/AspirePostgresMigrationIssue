@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspirePostgresMigrationIssue.Data\AspirePostgresMigrationIssue.Data.csproj" />
+    <ProjectReference Include="..\AspirePostgresMigrationIssue.ServiceDefaults\AspirePostgresMigrationIssue.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
