@@ -1,7 +1,7 @@
 # Aspire Postgres Migration Issue
 
 ### Note Only For Me
-Don't delete this repo because it is being used for a "bug" report.
+Please refrain from deleting this repo because it is being used for a "bug" report.
 
 ### Description
 The log below shows that the migration fails at first but succeeds later.
